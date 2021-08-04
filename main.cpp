@@ -84,7 +84,7 @@ void text(){
     FILE *pointer;
     int numbers, i;
 
-    pointer = fopen("ab.txt","r");
+    pointer = fopen("input.txt","r");
     if(pointer != NULL){
         double *A, *B, *Speedx, *Speedy;
         short *Color, *Radius;
